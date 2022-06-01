@@ -31,3 +31,25 @@
     background-position: center;
     background-color: #3b8d99;
 }
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.todo__list_added{
+    background-color: #aa4b6b;
+    list-style: none;
+    height: 60px;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+}
+.todo__list_completed{
+    background-color: #8fd9a8;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: line-through;
+    transition: all 2s ease;
+}
