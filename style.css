@@ -1,6 +1,13 @@
+/* https://cssgradient.io/ */
 .header,
 .container{
     display: flex;
     justify-content: center;
 }
 
+.header__title{
+    font-size: 60px;
+    background: linear-gradient(to left, #aa4b6b, #3b8d99);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
