@@ -23,3 +23,11 @@
     background: #3b8d99;
     border: none;
 }
+.page{
+    background-image: url('./assets/list-image.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #3b8d99;
+}
